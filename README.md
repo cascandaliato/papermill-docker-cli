@@ -1,6 +1,6 @@
-# [Papermill](https://github.com/nteract/papermill) Docker Image · [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/cascandaliato/papermill?logo=docker&style=flat-square)](https://hub.docker.com/repository/docker/cascandaliato/papermill)
+# [Papermill](https://github.com/nteract/papermill) Docker CLI · [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/cascandaliato/papermill?logo=docker&style=flat-square)](https://hub.docker.com/repository/docker/cascandaliato/papermill)
 
-A dockerized version of [papermill](https://github.com/nteract/papermill), a tool for parameterizing and executing Jupyter Notebooks.
+[Papermill](https://github.com/nteract/papermill) is a tool for parameterizing and executing Jupyter Notebooks. This is a dockerized version meant to be called from the command line. It includes all pre-requisites, except for [Docker](https://www.docker.com/) itself.
 
 I use it to update my [COVID-19 notebook](https://github.com/casca/covid19-notebook) automatically every day.
 
