@@ -2,8 +2,6 @@
 
 [Papermill](https://github.com/nteract/papermill) is a tool for parameterizing and executing Jupyter Notebooks. This is a dockerized version meant to be called from the command line. It includes all pre-requisites, except for [Docker](https://www.docker.com/) itself.
 
-I use it to update my [COVID-19 notebook](https://github.com/casca/covid19-notebook) automatically every day.
-
 
 ### Usage Instructions
 1. Install [Docker](https://www.docker.com/).
