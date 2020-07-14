@@ -14,7 +14,7 @@ I use it to update my [COVID-19 notebook](https://github.com/casca/covid19-noteb
 
 For example, `docker run --mount type=bind,source=$(pwd),destination=/notebooks cascandaliato/papermill input.ipynb output.ipynb` will execute notebook `input.ipynb` and save the updated notebook to `output.ipynb`.
 
-For the list of supported `<options>`, read the [official usage instructions](https://papermill.readthedocs.io/en/latest/usage-workflow.html) or run:
+For the list of supported commands, read the [official usage instructions](https://papermill.readthedocs.io/en/latest/usage-workflow.html) or run:
 - (Windows) `docker run --mount type=bind,source=%CD%,destination=/notebooks cascandaliato/papermill`
 - (linux) `docker run --mount type=bind,source=$(pwd),destination=/notebooks cascandaliato/papermill`
 
