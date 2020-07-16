@@ -1,3 +1,2 @@
 .vscode
-charts.ipynb
-output.ipynb
+*.ipynb
